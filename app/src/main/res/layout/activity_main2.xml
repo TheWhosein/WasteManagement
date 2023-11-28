@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="-74dp">
+
+    <Button
+        android:id="@+id/mapButton2"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:text="Map"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profileButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/TextAppearance.Compat.Notification.Info" />
+
+    <Button
+        android:id="@+id/profileButton2"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/white"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearance="@style/TextAppearance.Compat.Notification.Info" />
+
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="258dp"
+        android:text="Feedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="157dp"
+        android:layout_height="69dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFeedback" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="157dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:text="About"
+        app:layout_constraintBottom_toTopOf="@+id/btnFeedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="239dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFeedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/user" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="157dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:text="YouTube"
+        app:layout_constraintBottom_toTopOf="@+id/btnAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:text="example@mail.com"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnYoutube"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/btnYoutube"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
