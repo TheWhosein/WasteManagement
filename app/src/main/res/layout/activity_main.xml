@@ -19,6 +19,7 @@
         android:layout_width="208dp"
         android:layout_height="63dp"
         android:backgroundTint="@color/white"
+        android:onClick="profile"
         android:text="Profile"
         android:textColor="@color/black"
         android:textSize="28dp"
